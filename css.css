@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	height: 100vh;
+	width: 100%;
+	font-family: 'Itim', cursive;
+	gap: 1rem;
+   
+}
+
+.btn {
+    text-decoration: none;
+    color: inherit;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1rem;
+	font-weight: bold;
+	padding: 1rem 2rem;
+	border: 3px solid #000000;
+	border-radius: 15px;
+	box-shadow: 0 4px 0 #000000;
+	cursor: pointer;
+	gap: 0.75rem;
+}
+/* BEFORE HOVER */
+.button1 {
+	background: #f1c84c;
+}
+.button2 {
+	background: #f273e6;
+}
+.button3 {
+	background: #86e5ff;
+}
+.button4 {
+	box-shadow: 0 4px 0 #c9c9c9;
+	border: 3px solid #c9c9c9;
+	background: #f99417;
+}
+.button5 {
+	box-shadow: 0 4px 0 #c9c9c9;
+	border: 3px solid #c9c9c9;
+	background: #5d3891;
+}
+.button6 {
+	box-shadow: 0 4px 0 #c9c9c9;
+	border: 3px solid #c9c9c9;
+	background: #243763;
+}
+.button7 {
+	box-shadow: 0 4px 0 #ffffff;
+	border: 3px solid #ffffff;
+	background: #ff6e31;
+}
+.button8 {
+	box-shadow: 0 4px 0 #ffffff;
+	border: 3px solid #ffffff;
+	background: #f0ff42;
+}
+.button9 {
+	box-shadow: 0 4px 0 #ffffff;
+	border: 3px solid #ffffff;
+	background: #eb455f;
+}
+.button10 {
+	background: #ada2ff;
+}
+.button11 {
+	background: #d09cfa;
+}
+.button12 {
+	background: #cb1c8d;
+}
+
+/* HOVER */
+.button1:hover {
+	box-shadow: 0 4px 0 #ffbf00;
+	border: 3px solid #ffbf00;
+	background: #000000;
+	color: #ececec;
+}
+.button2:hover {
+	box-shadow: 0 4px 0 #ef27db;
+	border: 3px solid #ef27db;
+	color: #ececec;
+	background: #000000;
+}
+.button3:hover {
+	box-shadow: 0 4px 0 #0ac4f8;
+	border: 3px solid #0ac4f8;
+	color: #ececec;
+	background: #000000;
+}
+.button4:hover {
+	box-shadow: 0 4px 0 #f99417;
+	border: 3px solid #f99417;
+	color: #ececec;
+	background: #000000;
+}
+.button5:hover {
+	box-shadow: 0 4px 0 #5d3891;
+	border: 3px solid #5d3891;
+	color: #ececec;
+	background: #000000;
+}
+.button6:hover {
+	box-shadow: 0 4px 0 #5a81db;
+	border: 3px solid #5a81db;
+	color: #ececec;
+	background: #243763;
+}
+.button7:hover {
+	box-shadow: 0 4px 0 #fc5108;
+	border: 3px solid #fc5108;
+	background: #ff6e31;
+}
+.button8:hover {
+	box-shadow: 0 4px 0 #a1b003;
+	border: 3px solid #a1b003;
+	background: #f0ff42;
+}
+.button9:hover {
+	box-shadow: 0 4px 0 #ed143c;
+	border: 3px solid #ed143c;
+	background: #eb455f;
+}
+.button10:hover {
+	box-shadow: 0 4px 0 #c4bdf1;
+	border: 3px solid #c4bdf1;
+	color: #ececec;
+	background: #ada2ff;
+}
+.button11:hover {
+	box-shadow: 0 4px 0 #aa42ff;
+	border: 3px solid #aa42ff;
+	color: #ececec;
+	background: #d09cfa;
+}
+.button12:hover {
+	box-shadow: 0 4px 0 #f547b8;
+	color: #ececec;
+	border: 3px solid #f547b8;
+	background: #cb1c8d;
+}
